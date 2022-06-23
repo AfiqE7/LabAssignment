@@ -1,0 +1,66 @@
+{
+  "Version": "22.04",
+  "OEM": {
+    "Vendor": "innotek GmbH",
+    "Product": "VirtualBox",
+    "Family": "Virtual Machine"
+  },
+  "BIOS": {
+    "Vendor": "innotek GmbH",
+    "Version": "VirtualBox"
+  },
+  "Arch": "amd64",
+  "HwCap": "x86-64-v2",
+  "GPU": [
+    {
+      "Vendor": "15ad",
+      "Model": "0405"
+    }
+  ],
+  "RAM": 5,
+  "Disks": [
+    32.2
+  ],
+  "Partitions": [
+    30.3,
+    0.5
+  ],
+  "Screens": [
+    {
+      "Size": "0mmx0mm",
+      "Resolution": "800x600",
+      "Frequency": "59.86"
+    }
+  ],
+  "Autologin": true,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "wayland"
+  },
+  "Language": "en_US",
+  "Timezone": "Asia/Kuala_Lumpur",
+  "Install": {
+    "Media": "Ubuntu 22.04 LTS \"Jammy Jellyfish\" - Release amd64 (20220419)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "use_device",
+    "DownloadUpdates": true,
+    "Language": "en",
+    "Minimal": false,
+    "RestrictedAddons": true,
+    "Stages": {
+      "0": "language",
+      "6": "language",
+      "28": "console_setup",
+      "47": "prepare",
+      "91": "partman",
+      "94": "start_install",
+      "113": "timezone",
+      "129": "usersetup",
+      "185": "user_done",
+      "901": "done"
+    }
+  }
+}
