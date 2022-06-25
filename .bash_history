@@ -41,3 +41,9 @@ netstat-an | grep :7
 netstat -an | grep :7
 netstat -an | grep :5
 ps waux | grep :terminal
+ls -l
+nano sign.c
+git push -u origin master
+'https://github.com/AfiqE7/LabAssignment.git'https://github.com/AfiqE7/LabAssignment.git'https://github.com/AfiqE7/LabAssignment.git
+
+ls
